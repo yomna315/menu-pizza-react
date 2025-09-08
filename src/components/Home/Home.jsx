@@ -11,7 +11,7 @@ import ph4 from "../../assets/56566.png";
 import ph5 from "../../assets/456.png";
 import ph6 from "../../assets/Margarita Pizza (Plain).png";
 import ph7 from "../../assets/565.png";
-import qr from "../../assets/download.png";
+// import qr from "../../assets/download.png";
 import logo from "../../assets/restaurant-logo-png_seeklogo-298675.png";
 import ma from "../../assets/2.png";
 import ma1 from "../../assets/3.png";
@@ -319,7 +319,7 @@ const Home = () => {
         position:"fixed",
         bottom:0,
         left:0,
-        marginLeft:40,
+        marginLeft:10,
         marginBottom:20
       }}>
         {/* <img src={qr} alt="" style={{width:'100%',height:'100%'}} /> */}
