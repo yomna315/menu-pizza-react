@@ -177,9 +177,9 @@ const Home = () => {
     >
       {matrials.map((item,i)=>(
         <div key={i} style={{position:"fixed",height:'100vh',right:'40%',top:'40%',zIndex:1}}>
-          <img src={item.img1} height={160} style={{ display:"flex",position:"fixed",zIndex:1,top:currentIndexM==i? '5%':'30%',right:currentIndexM==i? '5%':'40%',transition:'.75s' }} />
-          <img src={item.img2} height={160} style={{ display:"flex",position:"fixed",zIndex:1,top:currentIndexM==i? '60%':'30%',right:currentIndexM==i? '10%':'40%' ,transition:'.75s'}} />
-          <img src={item.img3} height={160} style={{ display:"flex",position:"fixed",zIndex:1,top:currentIndexM==i? '40%':'30%',right:currentIndexM==i? '75%':'40%' ,transition:'.75s'}} />
+          <img src={item.img1} height={160} style={{ display:"flex",position:"fixed",zIndex:1,top:currentIndexM==i? '5%':'30%',right:currentIndexM==i? '5%':'40%',transition:'.75s',opacity:currentIndexM==i?1:0 }} />
+          <img src={item.img2} height={160} style={{ display:"flex",position:"fixed",zIndex:1,top:currentIndexM==i? '60%':'30%',right:currentIndexM==i? '10%':'40%' ,transition:'.75s',opacity:currentIndexM==i?1:0}} />
+          <img src={item.img3} height={160} style={{ display:"flex",position:"fixed",zIndex:1,top:currentIndexM==i? '40%':'30%',right:currentIndexM==i? '75%':'40%' ,transition:'.75s',opacity:currentIndexM==i?1:0}} />
         </div>
       ))}
       <div
